@@ -1,0 +1,850 @@
+/* src/styles.css */
+
+/* Top Navigation */
+.top-navigation {
+    display: flex;
+    max-width: auto;
+    padding: 26px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: #6B3CC9;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+  
+  /* Frame496 */
+  .frame496 {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+  }
+  
+  
+  /* Toggle Button */
+  .toggle-button {
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .toggle-icon {
+    width: 31px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 5px solid #FFF;
+  }
+
+
+  
+  /* Menu */
+  .menu {
+    /* Your menu styles go here */
+  }
+  
+  .desktop-menu {
+    white-space: nowrap;
+    /* Your desktop menu styles go here */
+  }
+  
+  .mobile-menu {
+    /* Your mobile menu styles go here */
+  }
+  
+  /* Menu Items */
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 28px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+
+
+/* Custom Button */
+.custom-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;  /* Prevent text from wrapping to a new line */
+  padding: 12px 20px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F28D35;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: absolute;
+  top: 292px;
+  bottom: 947px;
+  right: 1585px;
+  left: 40px;
+    
+}  
+ 
+
+/* Footer */
+.footer {
+  display: flex;
+  max-width: auto;
+  height: auto;  /* Auto height */
+  padding: 40px 80px 20px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: #6B3CC9;
+  position: relative;
+  top: 1867px;
+  margin: 0 auto;
+}
+
+/* Frame503 */
+.frame503 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  
+  width: 100%;
+  
+  height: auto;  /* Auto height */
+  margin-bottom: 20px;
+  
+}
+
+/* Frame500 */
+.frame500 {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  height: auto;  /* Auto height */
+  margin: 0;
+  
+  
+}
+
+/* Logo within Frame500 */
+.frame500-logo {
+  width: 100%;
+  height: auto;
+    
+}
+
+.frame500-text {
+  align-self: flex-start;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  
+  height: auto;  /* Auto height */ 
+}
+
+
+/* Frame502 */
+.frame502 {
+  display: flex;
+  align-items: flex-start;
+  gap: 128px;
+  color: #FFFFFF;
+  width: auto;  /* Auto width */
+  height: auto;  /* Auto height */
+  
+}
+
+/* Frame501 */
+.frame501 {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  height: auto;  /* Auto height */
+  
+}
+
+/* Frame501 Text */
+.frame501-text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: auto;
+  height: 25px;
+  margin: 0; /* Remove default margin */
+}
+
+/* Frame501Menu */
+.frame501-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: auto;
+  height: auto;
+}
+
+/* Frame501Menu Items */
+.frame501-menu p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  color: #FFFFFF;
+  height: auto;
+  font-size: 17px;
+  margin: 0; /* Remove default margin */
+  cursor: pointer;
+}
+
+/* Frame496_Footer */
+.frame496_footer {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  height: auto;  /* Auto height */
+  color: #FFF;
+  align-self: flex-start;
+  
+}
+
+
+/* Frame496_Footer Text */
+.frame496-footer-text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: auto;
+  height: 25px;
+  margin: 0; /* Remove default margin */
+  
+}
+
+/* Frame501MenuRight */
+.frame501-menu-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  color: #FFFFFF;
+  width: 100%;  /* 100% width */
+  height: auto;
+  
+  
+}
+
+/* Frame501MenuRight Items */
+.frame501-menu-right p {
+  align-self: stretch;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0; /* Remove default margin */
+  cursor: pointer;
+}
+
+  
+/* Frame505 */
+.frame505 {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%; /* 100% width */
+  height: 45px;
+  background-color: #6B3CC9;
+  position: absolute;
+  top: 307px;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  
+}
+
+
+/* Line6 */
+.line6 {
+  width: 630px; /* Set width to 100% to span the entire width of Frame505 */
+  height: 1px;
+  background: #FFF; /* Use background property instead of color for a visible line */
+  margin: 0 auto; /* Auto margin left and right to center the line */
+}
+  
+
+/* Frame504 */
+.frame504 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  
+  width: auto; /* Auto width */
+  height: auto; /* Auto height */
+  text-align: left;
+  position: relative;
+  bottom: 0; /* 0px to the bottom of Frame505 */
+}
+
+/* Text Privacy Policy */
+.text-privacy-policy {
+  white-space: nowrap;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width: auto; /* Auto width */
+  height: auto; /* Auto height */
+  position: absolute;
+  top: 0; /* 0px to the top left corner of Frame504 */
+  right: 16px;
+  cursor: pointer;
+}
+
+/* Line7 */
+.line7 {
+  width: 1px;
+  height: 16px;
+  background: #FFF;
+  
+  position: absolute;
+  top: 0; /* 0px to the top of Frame504 */
+  left: 0; /* To the right of Text Privacy Policy */
+}
+
+/* Text Terms & Conditions */
+.text-terms-conditions {
+  white-space: nowrap;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width: auto; /* Auto width */
+  height: auto; /* Auto height */
+  position: absolute;
+  top: 0; /* 0px to the top of Frame504 */
+  left: 16px; /* To the right of Line7 */
+  cursor: pointer;
+}
+
+
+/* =========================== */
+
+
+.hero-image {
+  width: 100%;
+  height: 763px;
+
+  flex-shrink: 0;
+  background-position: center; /* Adjust as needed */
+  background-size: cover;
+  position: absolute;
+  
+}
+
+.background-layer {
+  width: 1440px;
+  height: 763px;
+  
+  flex-shrink: 0;
+  background: #D9D9D9;
+  position: absolute;
+  top: 0;
+}
+
+
+.frame497 {
+  display: flex;
+  width: 548px;
+  padding: 24px 40px 32px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+  position: absolute;
+  top: 394px; /* Adjust based on your design */
+  left: 80px; /* Adjust based on your design */
+  right: 738px; /* Adjust based on your design */
+}
+
+.frame497-text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.96px;
+  text-transform: capitalize;
+  width: 556px;
+}
+
+
+/*========================================*/
+
+
+
+/* frame498.css */
+.frame498 {
+  display: inline-flex;
+  align-items: center;
+  gap: 108px;
+  width: auto;
+  height: 424px;
+  position: absolute;
+  top: 857px;
+  bottom: 920px;
+  left: 188px;
+  right: 188px;
+}
+
+.image2 {
+  width: 414px;
+  height: 416px;
+  
+}
+
+
+
+/* frame92.css */
+.frame92 {
+  display: flex;
+  width: 542px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+/* frame74.css */
+.frame74 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  color: #6B3CC9;
+}
+
+.web-mobile-text {
+  width: 507px;
+  color: #6B3CC9;
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+
+.your-web-mobile-text {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000000;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* Frame92_button */
+.frame92-button {
+  display: inline-flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  white-space: nowrap;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F28D35;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+/*===============================================*/
+
+
+/* frame499.css */
+.frame499 {
+  display: inline-flex;
+  align-items: center;
+  gap: 108px;
+  width: auto;
+  height: 424px;
+  position: absolute;
+  top: 1351px;
+  bottom: 424px;
+  left: 188px;
+  right: 188px;
+}
+
+.image1 {
+  width: 414px;
+  height: 416px;
+  
+}
+
+
+/* frame499-frame92.css */
+.frame499-frame92 {
+  display: flex;
+  width: 542px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+/* frame499-frame74.css */
+.frame499-frame74 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  
+}
+
+.digital-strategy-text {
+  color: #6B3CC9 !important;
+  width: 507px;
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+
+.your-digital-strategy-text {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000000;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* frame499-Frame92button */
+.frame499-frame92button {
+  display: inline-flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  white-space: nowrap;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F28D35;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+  @media only screen and (max-width: 1440px) {
+    /* Desktop styles for 1440px */
+    /* Footer */
+    .footer {
+      width: 1440px;
+      padding: 40px 80px 20px 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    /* Styles for screens up to 1200px wide */
+  
+    /* Custom Button */
+    .custom-button {
+      top: 292px;
+      bottom: 947px;
+      right: 1285px;
+      left: 40px;
+    }
+  
+    /* Footer */
+    .footer {
+      width: 1200px;
+      padding: 40px 60px 20px 60px;
+    }
+  
+    /* Frame503 */
+    .frame503 {
+      gap: 112px;
+    }
+  
+    /* Update other styles as needed */
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+
+    /* Footer */
+    .footer {
+      width: 768px;
+      padding: 40px 40px 20px 40px;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    
+
+    /* Frame503 */
+    .frame503 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+      
+    }
+
+    /* Frame500 */
+    .frame500 {
+      display: flex;
+      width: 413px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    /* Frame500-text */
+    .frame500-text {
+      width: 413px;
+      height: auto;
+    }
+  
+    /* Custom Button */
+    .custom-button {
+      top: 292px;
+      bottom: 947px;
+      right: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    /* Hero Section */
+    .hero-image {
+      height: 500px; /* Adjust height as needed */
+    }
+  
+    /* Frame498 */
+    .frame498 {
+      gap: 20px;
+    }
+  
+    /* Frame497 */
+    .frame497 {
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+  
+    /* Frame499 */
+    .frame499 {
+      gap: 20px;
+    }
+
+    /* footer */
+    .footer {
+      max-width: 768px;
+      height: auto;
+      padding: 40px, 40px, 20px, 40px;
+      border-radius: 4px;
+      gap: 40px;
+    }
+  
+    /* Update other styles as needed */
+  
+  }
+  
+  @media only screen and (max-width: 375px) {
+    /* Styles for screens up to 375px wide */
+  
+    /* Custom Button */
+    .custom-button {
+      top: 292px;
+      bottom: 947px;
+      right: 20px;
+      left: 20px;
+    }
+  
+    /* Hero Section */
+    .hero-image {
+      height: 300px; /* Adjust height as needed */
+    }
+  
+    /* Frame498 */
+    .frame498 {
+      gap: 10px;
+    }
+  
+    /* Frame497 */
+    .frame497 {
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+  
+    /* Frame499 */
+    .frame499 {
+      gap: 10px;
+    }
+  
+    /* footer */
+    .footer {
+      max-width: 375px;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px 20px 20px 12px;
+      border-radius: 4px;
+      gap: 8px;
+    }
+
+    /* frame503 */
+    .frame503 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      gap: 60px;
+    }
+
+    /* frame500 */
+    .frame500 {
+      display: flex;
+      width: 100%;
+      max-width: 375px;
+      height: auto;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+
+    /* Frame500-text */
+    .frame500-text {
+      width: 100%;
+      max-width: 375px;
+      height: auto;
+      
+      font-size: min(3.8vw, 16px);
+      text-align: justify;
+    }
+  
+
+    /* frame502 */
+    .frame502 {
+      width: Fill (335px);
+      height: 409px;
+      gap: 40px;
+    }
+
+    /* frame501 */
+    .frame501 {
+      width: 238.89px;
+      height: 36.11px;
+      top: -11.11px;
+    }
+
+    /* ReactJS text - check this and the above 501-menu*/
+    .frame501-text {
+      width: 60px;
+      height: 162px;
+      gap: 12px;
+    }
+
+    /* frame496_footer */
+    .frame496_footer {
+      width: Fixed (216px);
+      height: 170px;
+      gap: 12px;
+    }
+
+    /* frame501 menu */
+    .frame501-menu {
+      width: Fill (216px);
+      height: 133px;
+      gap: 12px;
+      
+    }
+
+    /* frame505 */
+    .frame505 {
+      width: Fill (335px);
+      height: 25px;
+      gap: 8px;
+    }
+
+
+    /* line6 */
+    .line6 {
+      width: Fill (335px);
+      height: 1px;
+      gap: 8px;
+    }
+
+    
+  
+  }
